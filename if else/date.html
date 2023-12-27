@@ -1,0 +1,48 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            var d=+prompt();
+            var m=+prompt();
+            var y=+prompt();
+           
+           
+
+         if(m==1||m==3||m==5||m==7||m==8||m==10||m==12){
+            if(d<=31){
+                    console.log("yes it is correct date")
+            }
+            else{
+                console.log("date is not correct please enter ")
+            }
+          
+            }
+           
+         
+         else if(m==4||m==6||m==9||m==11){
+            if(d<=30){
+                console.log("cool its valid date")
+            }
+            else{
+                console.log("enter correct date yaar")
+            }
+         }
+         else if(y%4==0&&m==2){
+            if(d==29)
+      console.log("yes it is crct date")
+            else{
+                console.log("no it is crct date")
+            }  
+         
+        }
+        else if(y%4!==0&&m==2){
+            if(d<=28)
+      console.log("yes it is crct date")
+            else{
+                console.log("no it is crct date")
+            }  
+         
+        }
+        </script>
+    </body>
+</html>
